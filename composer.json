@@ -1,0 +1,23 @@
+{
+    "name": "offworks/restery",
+    "description": "schema/model based rest APIs based on exedra",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Eimihar",
+            "email": "newrehmi@gmail.com"
+        }
+    ],
+    "require": {
+        "rosengate/exedra": "^1.0",
+        "offworks/laraquent": "^1.1",
+        "symfony/console": "^4.3",
+        "league/fractal": "^0.18.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Restery\\": "src"
+        }
+    }
+}
